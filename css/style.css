@@ -1,0 +1,97 @@
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  text-decoration: none;
+  font-family: "Castoro", serif;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #000;
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+header {
+  padding-top: 160px;
+  letter-spacing: 0.12em;
+  font-size: 128px;
+}
+
+header .pic {
+  max-width: 636px;
+  margin: 0 auto;
+}
+
+header h2 {
+  text-align: end;
+}
+.background {
+  background-color: #efefef;
+  padding: 48px 0;
+}
+
+.background p {
+  max-width: 636px;
+  font-size: 32px;
+  margin-left: auto;
+  /* 使用margin-left: auto置右 */
+}
+
+.card {
+  padding: 40px 0 160px 0;
+  font-size: 24px;
+}
+
+.card .content {
+  max-width: 636px;
+}
+
+.card h3 {
+  margin-top: 40px;
+  font-size: 40px;
+  color: #ae0000;
+  border-bottom: 3px solid #ae0000;
+}
+
+.card ul li {
+  margin-top: 16px;
+}
+
+.time {
+  font-size: 20px;
+  font-style: italic;
+  color: #949494;
+}
+
+.aboutMe li {
+  margin-top: 8px;
+}
+
+.awards {
+  margin-top: 12px;
+}
+footer {
+  padding: 64px;
+  background-color: black;
+  text-align: center;
+}
+
+footer img {
+  max-width: 64px;
+  padding: 0 20px;
+}
